@@ -1,8 +1,6 @@
 name: Build & Push Legacy Java App via Azure AI Agent
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
 
 env:

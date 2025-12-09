@@ -8,7 +8,7 @@ env:
   IMAGE_NAME: legacy-servlet-app
   ACR_NAME: ${{ secrets.ACR_NAME }}
   REGISTRY: ${{ secrets.ACR_NAME }}.azurecr.io
-  TAG: ${{ github.sha }}
+  TAG: ${{ github.sha }} 
 
 jobs:
   build-and-push:

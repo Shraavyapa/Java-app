@@ -75,4 +75,4 @@ Java-assignment/
 - Optimized layer caching
 - Minimal runtime image (Alpine-based)
 - Health checks
-- Security best practices
+- Security best practices.
